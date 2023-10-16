@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+#navimg {
+    width: 80px;
+    margin-left: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+header {
+    height: 100vh;
+    position: relative;
+}
+
+ul {
+    display: flex;
+    margin-right: 100px;
+}
+
+a {
+    padding: 15px 20px;
+    font-weight: 600;
+}
+
+a:hover {
+    border-bottom: 2px solid #e4b95b;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+    text-align: center;
+}
+
+
+header::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgb(0, 0, 0, 0.6);
+}
+
+.content h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+header * {
+    z-index: 5;
+}
+
+.primary {
+    color: #e4b95b;
+}
+
+#offers {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+
+.title p {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.title h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #e4b95b;
+}
+
+
+
+.title p {
+    color: #fff;
+    font-weight: 500;
+}
+
+.offers-i {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.o img {
+    width: 200px;
+}
+
+.o h3 {
+    font-size: 25px;
+    color: #db2323;
+    margin: 15px 0;
+}
+
+.o p {
+    color: #1d1a1a;
+    font-size: 14px;
+    padding: 0 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.o span {
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+#footer {
+    background-color: #383848;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 14px;
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    /* Modify existing styles or add new styles for smaller screens */
+
+    /* Adjustments for the header */
+    #navimg {
+        margin-left: 4px;
+    }
+
+
+    nav ul {
+        margin-right: 20px;
+    }
+
+    li a {
+        padding: 5px 10px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    /* Adjustments for the offers section */
+    .offers-i {
+        flex-direction: column;
+
+    }
+
+
+
+    .title {
+        margin-top: 450px;
+    }
+
+    #footer {
+        margin-top: 450px;
+    }
+
+    header {
+        height: 50vh;
+
+        position: relative;
+    }
+
+    .offers-i img {
+        width: 120px;
+    }
+
+    .primary {
+        font-size: 40px;
+    }
+
+    .o span {
+        font-size: 50px;
+        font-weight: 600;
+        font-size: 18px;
+        margin-left: 5px;
+    }
+
+    body {
+        width: 550px;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    /* Modify existing styles or add new styles for smaller screens */
+
+    /* Adjustments for the header */
+    header {
+        height: 40vh;
+
+        position: relative;
+    }
+
+
+    .title {
+        margin-top: 20px;
+
+    }
+
+    #footer {
+        margin-top: 0px;
+    }
+
+    #navimg {
+        margin-left: 25px;
+    }
+
+
+    nav ul {
+        margin-right: 20px;
+    }
+
+    li a {
+        padding: 10px 15px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+    #navimg {
+        margin-left: 20px;
+    }
+
+
+    nav ul {
+        margin-right: 2px;
+    }
+
+    li a {
+        padding: 3px 6px;
+        font-weight: 600;
+        font-size: 15px;
+
+    }
+
+    /* Adjustments for the offers section */
+    .offers-i {
+        flex-direction: column;
+
+    }
+
+    .title {
+        margin-top: 500px;
+    }
+
+    #footer {
+        margin-top: 500px;
+    }
+
+    header {
+        height: 50vh;
+
+        position: relative;
+    }
+
+    .offers-i img {
+        width: 120px;
+    }
+
+    .primary {
+        font-size: 40px;
+    }
+
+    .o span {
+        font-size: 50px;
+        font-weight: 600;
+        font-size: 18px;
+        margin-left: 5px;
+    }
+
+    body {
+        width: 400px;
+    }
+}

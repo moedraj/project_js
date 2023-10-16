@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Lover</title>
+    <!-- Style Link -->
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- Fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" type="text/css" href="engine0/style.css" />
+    <script type="text/javascript" src="engine0/jquery.js"></script>
+
+
+<body>
+    <!-- Header Start -->
+    <header>
+        <div id="navbar">
+            <img src="../img/logo.png" alt="Food Lover Logo">
+            <nav role="navigation">
+                <ul>
+                    <li><a href="../html/index.html">Home</a></li>
+
+                    <li><a href="../html/mnue.html">Menu</a></li>
+                    <li><a href="../html/contact.html">Contact</a></li>
+                    <li><a href="../html/comment.html">comments</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>Welcome To <span class="primary-text"> Food Lover </span> Restaurant</h1>
+
+
+
+
+        </div>
+    </header>
+    <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+
+
+
+
+
+    <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+
+    <section id="offers">
+        <div class="container">
+            <div class="title">
+                <h2>Our Special Offers</h2>
+                <p style="color:chocolate">More than 25+ years of experience</p>
+            </div>
+            <div class="offers-items">
+                <section>
+                    <img src="../img/offer1.png" alt="Quattro Pasta">
+                    <div>
+                        <h3>Quattro Pasta</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, quibusdam.</p>
+                        <p><del>$ 55.00</del> <span class="primary-text">$18.00</span></p>
+                    </div>
+                </section>
+                <section>
+                    <img src="../img/offer2.png" alt="Vegertarian Pasta">
+                    <div>
+                        <h3>Vegertarian Pasta</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, quibusdam.</p>
+                        <p><del>$ 55.00</del> <span class="primary-text">$18.00</span></p>
+                    </div>
+                </section>
+                <section>
+                    <img src="../img/offer3.png" alt="Quattro Pasta">
+                    <div>
+                        <h3>Gluten-Free Pasta</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, quibusdam.</p>
+                        <p><del>$ 55.00</del> <span class="primary-text">$18.00</span></p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer id="footer">
+        <p>created &copy; Mohammed Rajeh <br><b> wwww.bwog33@gmail.com </b></p>
+    </footer>
+</body>
+
+</html>
